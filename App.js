@@ -34,7 +34,7 @@ export default class App extends React.Component {
 
     const image = require('./assets/logo_transparent.png');
     return (
-      <ImageBackground source={image} style={{flex : 1}} >
+      <ImageBackground source={image} style={{ width: '100%', height: '100%' }}>
         <AppNavigator></AppNavigator>
       </ImageBackground>
     );

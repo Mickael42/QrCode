@@ -4,12 +4,12 @@ import Encoder from '../screens/Encoder';
 import Decoder from '../screens/Decoder';
 import Historique from '../screens/Historique';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-
+import DecoderFirstPage from '../screens/DecoderFirstPage';
 
 
 const Navigation = createBottomTabNavigator({
   Décoder: {
-    screen: Decoder
+    screen: DecoderFirstPage
   },
   Encoder: {
     screen: Encoder
