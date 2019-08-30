@@ -10,7 +10,7 @@ import {
 
 class QrCodeGenerator extends Component {
   state = {
-    text: 'boby',
+    text: 'jean-jacques',
   };
 
   render() {
